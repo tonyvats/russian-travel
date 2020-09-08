@@ -1,28 +1,23 @@
-.paragraph__first-row {
-    grid-area: paragraph__first-row;
+.paragraph_text {
     width: 484px;
-    height: 100%;
     margin: 0px;
 }
 
 @media screen and (max-width: 1024px) {
-    .paragraph__first-row {
+    .paragraph_text {
         width: 456px;
-        /* height: 177px; */
     }
 }
 
 @media screen and (max-width: 768px) {
-    .paragraph__first-row {
+    .paragraph_text {
         width: 352px;
-        /* max-height: 183px; */
     }
 }
 
 @media screen and (max-width: 320px) {
-    .paragraph__first-row {
+    .paragraph_text {
         width: 288px;
-        /* max-height: 209px; */
         margin: 0px 16px;
     }
 }

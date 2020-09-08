@@ -4,7 +4,6 @@
     font-size: 24px;
     line-height: 28px;
     width: 30px;
-    height: 28px;
     margin: 0px;
     padding: 0px;
     
@@ -22,7 +21,6 @@
 @media screen and (max-width: 393px) {
     .header__lang-link{
         width: 22px;
-        height: 20px;
         font-size: 18px;
         line-height: 20px;
     }
@@ -31,7 +29,6 @@
 @media screen and (max-width: 328px) {
     .header__lang-link{
         width: 22px;
-        height: 20px;
         font-size: 18px;
         line-height: 20px;
     }   
@@ -40,7 +37,6 @@
 @media screen and (max-width: 320px) {
     .header__lang-link{
         width: 22px;
-        height: 20px;
         font-size: 18px;
         line-height: 20px;
     }
