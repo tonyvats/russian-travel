@@ -1,6 +1,38 @@
 .lead {
-    width: 984px;
-    height: 1005px;
+    max-width: 984px;
+    max-height: 1005px;
+    margin: 56px 148px 0px;
     /* border: 2px solid red; */
-    margin: 56px auto 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+        max-height: 962px;
+        margin: 48px 48px 0px;
+    }
+}
+
+@media screen and (max-width: 806px) {
+    .lead {
+        max-width: 768px;
+        max-height: 862px;
+        margin: 48px 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 768px;
+        margin: 48px 0px;
+    }
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .lead {
+        max-width: 320px;
+        margin: 48px 0px;
+    }
 }

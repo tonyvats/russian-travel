@@ -1,0 +1,22 @@
+.footer__links {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.footer__links li{
+    display: inline;
+}
+
+@media screen and (max-width: 1024px) {
+    li{
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+    ul.footer__links li{
+        display: block;
+        padding-bottom: 32px;
+    }
+}

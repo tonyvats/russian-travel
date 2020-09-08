@@ -1,0 +1,40 @@
+.paragraph {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
+    grid-area: paragraph;
+    color: #FFFFFF;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: min-content;
+    grid-template-areas:
+    "paragraph__first-row"
+    "paragraph__second-row";
+    gap: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+    .paragraph {
+        grid-template-columns: 1fr;
+        grid-auto-rows: min-content;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .paragraph {
+        grid-template-columns: 1fr;
+        grid-auto-rows: min-content;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .paragraph {
+        /* grid-template-rows: 209px 1fr; */
+        grid-auto-rows: min-content;
+        gap: 24px;
+    }
+}
