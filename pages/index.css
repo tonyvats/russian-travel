@@ -1,8 +1,7 @@
 
 @import url(../vendor/normalize.css);
 
-@import url('https://rsms.me/inter/inter.css');
-/* @import url(../font/Inter-3.15/Inter\ Web/inter); */
+@import url(../vendor/fonts/inter_web/font.css);
 
 @import url(../blocks/root/root.css);
 
