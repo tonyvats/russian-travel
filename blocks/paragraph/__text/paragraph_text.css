@@ -1,21 +1,9 @@
 .paragraph_text {
-    width: 484px;
+    width: 100%;
     margin: 0px;
 }
 
-@media screen and (max-width: 1024px) {
-    .paragraph_text {
-        width: 456px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .paragraph_text {
-        width: 352px;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 710px) {
     .paragraph_text {
         width: 288px;
         margin: 0px 16px;

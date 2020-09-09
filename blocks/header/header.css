@@ -33,18 +33,8 @@
     }
 }
 
-@media screen and (max-width: 328px) {
-    .header {
-        max-width: 288px;
-        height: 42px;
-        padding: 16px 16px 0px;
-    }
-}
-
 @media screen and (max-width: 320px) {
     .header {
         max-width: 288px;
-        height: 42px;
-        padding: 16px 16px 0px;
     }
 }

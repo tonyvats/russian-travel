@@ -1,28 +1,19 @@
 .place__website {
-    /* border: 2px solid red; */
     width: 456px;
     height: 46px;
     position: absolute;
     bottom: 0px;
     grid-area: place__website;
-    /* display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-    "website__url-heading"
-    "website__link"; */
 }
 
 @media screen and (max-width: 768px) {
     .place__website {
         width: 352px;
-        /* height: 46px; */
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 710px) {
     .place__website {
-        /* grid-area: unset; */
         display: none;
     }
 }

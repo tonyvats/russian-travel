@@ -25,19 +25,3 @@
         line-height: 20px;
     }
 }
-
-@media screen and (max-width: 328px) {
-    .header__lang-link{
-        width: 22px;
-        font-size: 18px;
-        line-height: 20px;
-    }   
-} 
-
-@media screen and (max-width: 320px) {
-    .header__lang-link{
-        width: 22px;
-        font-size: 18px;
-        line-height: 20px;
-    }
-}

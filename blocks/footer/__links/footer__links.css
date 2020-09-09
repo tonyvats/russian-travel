@@ -13,7 +13,7 @@ ul.footer__links li{
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 385px) {
     
     ul.footer__links li{
         display: block;

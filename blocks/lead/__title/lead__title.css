@@ -1,7 +1,7 @@
 .lead__title {
-    display: flex;
     justify-content: center;
-    max-width: 720px;
+    /* max-width: 720px; */
+    width: 90%;
     margin: 0px auto;
     font-family: Inter;
     font-style: normal;
@@ -13,11 +13,11 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 710px) {
     .lead__title {
-        max-width: 288px;
+        /* max-width: px; */
         font-size: 40px;
         line-height: 44px; 
-        margin: 0px 18px;  
+        margin: 0px 18px;   
     }
 }
