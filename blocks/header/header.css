@@ -1,6 +1,5 @@
 .header {
-    max-width: 1184px;
-    /* height: 52px; */
+    max-width: 100%;
     padding: 28px 48px 0px;
     display: flex;
     flex-direction: row;
@@ -13,28 +12,10 @@
     /* border: 2px solid red; */
 }
 
-@media screen and (max-width: 1024px) {
-    .header {
-        max-width: 928px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .header {
-        max-width: 720px;
-    }
-}
-
 @media screen and (max-width: 393px) {
     .header {
-        max-width: 365px;
         height: 42px;
         padding: 16px 16px 0px;
     }
 }
 
-@media screen and (max-width: 320px) {
-    .header {
-        max-width: 288px;
-    }
-}
