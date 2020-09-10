@@ -1,7 +1,7 @@
 .header__lang {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 18px;
     margin: 0px;
-}
-
-ul.header__lang li {
-    display: inline;
 }

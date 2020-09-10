@@ -1,5 +1,6 @@
 .intro__list {
     max-width: 720px;
+    height: 90px;
     padding: 0px;
     margin-top: 32px;    
     color: white;
@@ -8,11 +9,13 @@
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 ul.intro__list li{
     list-style: none;
-    display: block;
     padding: 0px;
 }
 
