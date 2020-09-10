@@ -1,7 +1,7 @@
 .intro {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    max-width: 690px;
     margin: 92px 148px;
     font-size: 16px;
     line-height: 26px;
