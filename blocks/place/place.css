@@ -4,7 +4,7 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 48px 40px;
     grid-template-areas:
-    "place__title place__website"
+    "place__title website"
     "place__image paragraph";
     position: relative;
     align-self: end;

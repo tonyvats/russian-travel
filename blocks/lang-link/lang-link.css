@@ -1,4 +1,4 @@
-.header__lang-link {
+.lang-link {
     color: #FFFFFF;
     list-style: none;
     font-size: 24px;
@@ -9,12 +9,12 @@
     
 }
 
-.header__lang-link:first-child {
+.lang-link:first-child {
     text-decoration-line: underline;
 }
 
 @media screen and (max-width: 393px) {
-    .header__lang-link{
+    .lang-link{
         width: 22px;
         font-size: 18px;
         line-height: 20px;

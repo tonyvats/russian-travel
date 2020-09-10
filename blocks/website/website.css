@@ -1,19 +1,19 @@
-.place__website {
+.website {
     max-width: 456px;
     height: 46px;
     position: absolute;
     bottom: 0px;
-    grid-area: place__website;
+    grid-area: website;
 }
 
 @media screen and (max-width: 768px) {
-    .place__website {
+    .website {
         max-width: 352px;
     }
 }
 
 @media screen and (max-width: 710px) {
-    .place__website {
+    .website {
         display: none;
     }
 }
