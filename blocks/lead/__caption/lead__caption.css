@@ -2,8 +2,7 @@
     position: relative;
     left: 0px;
     margin: 8px 0px 0px;
-    width: 159px;
-    height: 14px;
+    width: 100%;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -14,7 +13,7 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 875px) {
     .lead__caption {
         margin-left: 24px; 
     }

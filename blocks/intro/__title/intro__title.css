@@ -1,6 +1,5 @@
 .intro__title {
-    max-width: 690px;
-    /* max-height: 100%; */
+    max-width: 100%;
     margin: 0px;
     padding-bottom: 40px;
     font-family: Inter;
@@ -12,22 +11,8 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 768px) {
-    .intro__title {
-        max-width: 720px;
-    }
-}
-
-@media screen and (max-width: 720px) {
-    .intro__title {
-        max-width: 672px;
-    }
-}
-
 @media screen and (max-width: 320px) {
     .intro__title {
-        max-width: 288px;
-        max-height: 70px;
         font-size: 32px;
         line-height: 35px;
     }
