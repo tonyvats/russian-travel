@@ -28,5 +28,6 @@
     .cover  {
         max-width: 320px;
         height: 200px; 
+        margin: 0px;
     }
 }

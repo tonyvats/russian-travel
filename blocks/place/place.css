@@ -33,7 +33,6 @@
     .place  {
         max-width: 340px;
         grid-template-columns: 1fr;
-        grid-template-rows: 32px 320px 610px;
         grid-template-areas:
             "place__title"
             "place__image" 
