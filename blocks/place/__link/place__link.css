@@ -1,4 +1,4 @@
-.website__link {
+.place__link {
     width: 456px;
     font-family: Inter;
     font-style: normal;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .website__link {
+    .place__link {
         width: 352px;
     }
 }
