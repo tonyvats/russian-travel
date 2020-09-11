@@ -1,20 +1,15 @@
-.footer__links {
+.footer__links  {
     padding: 0px;
     margin: 0px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 15px;
     max-width: 480px;
-}
-
-.footer__links li {
     list-style: none;
 }
 
-
-
-@media screen and (max-width: 487px) {
-    .footer__links {
+@media screen and (max-width: 487px)    {
+    .footer__links  {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -23,9 +18,9 @@
     }
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 385px)    {
     
-    ul.footer__links li{
+    .footer__links  {
         padding-bottom: 32px;
     }
 }

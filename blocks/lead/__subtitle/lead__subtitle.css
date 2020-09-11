@@ -11,13 +11,13 @@
     text-align: center;
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 710px)    {
     .lead__subtitle {
         max-width: 678px;
     }
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 710px)    {
     .lead__subtitle {
         max-width: 288px;
     }

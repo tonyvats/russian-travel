@@ -1,4 +1,4 @@
-.header__lang-link {
+.header__lang-link  {
     color: #FFFFFF;
     /* list-style: none; */
     list-style-type: none;
@@ -11,8 +11,8 @@
     
 }
 
-@media screen and (max-width: 393px) {
-    .header__lang-link{
+@media screen and (max-width: 393px)    {
+    .header__lang-link  {
         width: 22px;
         font-size: 18px;
         line-height: 20px;

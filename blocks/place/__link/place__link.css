@@ -1,4 +1,4 @@
-.place__link {
+.place__link    {
     width: 456px;
     font-family: Inter;
     font-style: normal;
@@ -9,8 +9,8 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 1024px) {
-    .place__link {
+@media screen and (max-width: 1024px)   {
+    .place__link    {
         width: 352px;
     }
 }

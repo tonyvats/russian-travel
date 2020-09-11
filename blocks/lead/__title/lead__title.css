@@ -1,4 +1,4 @@
-.lead__title {
+.lead__title    {
     justify-content: center;
     /* max-width: 720px; */
     width: 90%;
@@ -13,8 +13,8 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 710px) {
-    .lead__title {
+@media screen and (max-width: 710px)    {
+    .lead__title    {
         /* max-width: px; */
         font-size: 40px;
         line-height: 44px; 

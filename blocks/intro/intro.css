@@ -1,4 +1,4 @@
-.intro {
+.intro  {
     display: flex;
     flex-direction: column;
     max-width: 690px;
@@ -7,14 +7,14 @@
     line-height: 26px;
 }
 
-@media screen and (max-width: 1024px) {
-    .intro {
+@media screen and (max-width: 1024px)   {
+    .intro  {
         padding: 92px 48px;
     }
 }
 
-@media screen and (max-width: 500px) {
-    .intro {
+@media screen and (max-width: 500px)    {
+    .intro  {
         padding: 64px 16px;
     }
 }

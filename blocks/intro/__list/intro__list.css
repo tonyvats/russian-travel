@@ -1,4 +1,4 @@
-.intro__list {
+.intro__list    {
     max-width: 720px;
     height: 90px;
     padding: 0px;
@@ -12,25 +12,17 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
-ul.intro__list li{
     list-style: none;
-    padding: 0px;
 }
 
-@media screen and (max-width: 768px) {
-    .intro__list {
+@media screen and (max-width: 768px)    {
+    .intro__list    {
         max-width: 720px;
     }
 }
 
-@media screen and (max-width: 320px) {
-    .intro__list {
+@media screen and (max-width: 320px)    {
+    .intro__list    {
         max-width: 288px;
-    }
-
-    ul.intro__list li{
-        margin: 0px;
     }
 }

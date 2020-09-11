@@ -1,4 +1,4 @@
-.place__paragraph {
+.place__paragraph   {
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -14,14 +14,14 @@
 }
 
 
-@media screen and (max-width: 768px) {
-    .place__paragraph {
+@media screen and (max-width: 768px)    {
+    .place__paragraph   {
         font-size: 16px;
     }
 }
 
-@media screen and (max-width: 366px) {
-    .place__paragraph {
+@media screen and (max-width: 366px)    {
+    .place__paragraph   {
         max-width: 288px;
         padding: 0px 16px;
     }
