@@ -9,12 +9,12 @@
 
 @media screen and (max-width: 1024px)   {
     .intro  {
-        padding: 92px 0px;
+        padding: 88px 24px;
     }
 }
 
 @media screen and (max-width: 500px)    {
     .intro  {
-        padding: 64px 0px;
+        padding: 64px 16px;
     }
 }
