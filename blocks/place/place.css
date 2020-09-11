@@ -10,10 +10,6 @@
     align-self: end;
 }
 
-.place:nth-child(4)    {
-    padding-top: 40px;
-}
-
 @media screen and (max-width: 1024px)   {
     .place  {
         max-width: 928px;
