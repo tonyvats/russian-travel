@@ -3,34 +3,27 @@
     max-width: 1184px;
     box-sizing: border-box;
     padding: 28px 48px 0px;
+    margin: 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: #2A2C2F;
-    font-family: Inter;
+    font-family: 'Inter', ‘Arial’, sans-serif;
     font-style: normal;
     font-weight: normal;
-    /* border: 2px solid red; */
 }
 
-@media screen and (max-width: 1024px)   {
-    .header {
-        height: 42px;
-        padding: 28px 48px 0px;
-    }
-}
 
 @media screen and (max-width: 768px)    {
     .header {
-        height: 42px;
         padding: 28px 24px 0px;
+        margin: 0px;
     }
 }
 
 @media screen and (max-width: 320px)    {
     .header {
-        height: 42px;
         padding: 16px 16px 0px;
     }
 }

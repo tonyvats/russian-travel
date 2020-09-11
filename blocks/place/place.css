@@ -10,6 +10,10 @@
     align-self: end;
 }
 
+.place:nth-child(4)    {
+    padding-top: 40px;
+}
+
 @media screen and (max-width: 1024px)   {
     .place  {
         max-width: 928px;
@@ -28,7 +32,6 @@
 @media screen and (max-width: 710px)    {
     .place  {
         max-width: 340px;
-        max-height: 965px;
         grid-template-columns: 1fr;
         grid-template-rows: 32px 320px 610px;
         grid-template-areas:
@@ -37,21 +40,5 @@
             "paragraph";
         grid-gap: 32px;
         grid-auto-rows: min-content;
-    }
-
-    .place:nth-child(2) {    
-        max-height: 940px;
-    }
-
-    .place:nth-child(3) {
-        max-height: 913px;  
-    }
-
-    .place:nth-child(4) {
-        max-height: 887px;
-    }
-
-    .place:nth-child(5) {
-        max-height: 889px;
     }
 }

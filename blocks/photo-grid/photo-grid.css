@@ -27,15 +27,6 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .photo-grid {
-        max-width: 720px;
-        max-height: 1664px;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-    }
-}
-
 @media screen and (max-width: 767px) {
     .photo-grid {
         max-height: 100%;
