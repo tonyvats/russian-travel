@@ -25,3 +25,8 @@
         line-height: 24px;
     }
 }
+
+.footer__link:hover {
+    opacity: 0.8;
+    transition: opacity linear 0.3s;
+  }

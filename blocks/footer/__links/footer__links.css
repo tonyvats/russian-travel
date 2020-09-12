@@ -3,24 +3,21 @@
     margin: 0px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: 15px;
+    grid-gap: 32px;
     max-width: 480px;
     list-style: none;
 }
 
 @media screen and (max-width: 487px)    {
     .footer__links  {
-        display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-        margin: 0px;
-        padding: 0px;    
     }
 }
 
 @media screen and (max-width: 385px)    {
     
     .footer__links  {
-        padding-bottom: 32px;
+        padding-bottom: 48px;
     }
 }

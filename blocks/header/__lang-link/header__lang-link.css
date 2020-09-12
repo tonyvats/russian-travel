@@ -18,3 +18,9 @@
         line-height: 20px;
     }
 }
+
+
+.header__lang:hover {
+    opacity: 0.8;
+    transition: opacity linear 0.3s;
+  }
