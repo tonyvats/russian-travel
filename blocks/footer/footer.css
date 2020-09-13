@@ -2,8 +2,9 @@
     width: 100%;
     max-width: 1184px;
     box-sizing: border-box;
-    padding: 92px 0px 24px;
+    padding: 92px 24px 0px;
     display: grid;
+    justify-self: center;
     align-items: flex-end;
     grid-template-columns: 1fr 1fr;
     background-color: #2A2C2F;
@@ -11,13 +12,14 @@
 
 @media screen and (max-width: 1188px)    {
     .footer {
-        padding: 92px 48px 24px;
+        max-width: 1184px;
     }
 }
 
 @media screen and (max-width: 768px)    {
     .footer {
-        padding: 88px 24px 24px;
+        max-width: 768px;
+        padding-top: 88px;
     }
 }
 
@@ -31,7 +33,8 @@
 
 @media screen and (max-width: 385px)    {
     .footer {
-        padding: 64px 118px 24px 16px;
+        justify-self: center;
+        padding: 64px 16px 0px;
 
     }
 }
